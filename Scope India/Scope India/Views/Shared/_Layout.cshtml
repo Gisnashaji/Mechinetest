@@ -1,0 +1,214 @@
+﻿
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Scope_India.styles.css" asp-append-version="true" />
+        <title>@ViewData["Title"] -Scope India</title>
+    <script>
+        function closeDiv() {
+            var div = document.getElementById('loginForm');
+            div.style.display = 'none';
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+
+            $("#p1").animate({ opacity: 4 }, 1000, function () {
+
+                $("#p").fadeTo(1000, 2);
+
+                setTimeout(function () {
+                    $("#loader").hide();
+
+                }, 3100);
+
+
+            });
+
+            const photos = $('.photos');
+            const photoWidth = $('.photos img').width();
+
+            function scrollRight() {
+                photos.animate({ 'marginLeft': -photoWidth }, 300, function () {
+                    photos.css('marginLeft', 0);
+                    photos.append(photos.find('img:first-child'));
+                });
+            }
+
+            $('#scroll-button-left').click(function () {
+                photos.animate({ 'marginLeft': photoWidth }, 300, function () {
+                    photos.css('marginLeft', 0);
+                    photos.prepend(photos.find('img:last-child'));
+                });
+            });
+
+            $('#scroll-button-right').click(scrollRight);
+
+            setInterval(scrollRight, 7000);
+        });
+
+        
+
+
+    </script>
+
+   
+
+
+
+
+</head>
+<body >
+
+  
+        <div id="header">
+
+            <div id="navi" class="row" style="margin-top: 53px">
+                <div class="col-md-1" style="padding-left: 30px">
+                    <a style="color: yellow;text-decoration: none;text-shadow: 2px 2px black;"asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </div>
+              @*  <div class="col-md-1">
+                    <a style="color:  yellow;text-decoration: none;text-shadow: 2px 2px black;" href="course.html">Courses</a>
+                </div>*@
+                <div class="col-md-1" style="padding-left: 0;">
+                    <a style="color:  yellow;text-decoration: none;text-shadow: 2px 2px black;" asp-area="" asp-controller="Home" asp-action="Placement">Placements</a>
+                </div>
+                <div class="col-md-1">
+                <a style="color:  yellow;text-decoration: none;text-shadow: 2px 2px black;" asp-area="" asp-controller="Contact" asp-action="Index">Contact</a>
+                </div>
+                <div class="col-md-1">
+                <a style="color:  yellow;text-decoration: none;text-shadow: 2px 2px black;" asp-area="" asp-controller="Home" asp-action="About">About Us</a>
+                </div>
+            </div>
+            <div id="logo-div">
+            <a asp-area="" asp-controller="Home" asp-action="Index"> <img id="bird-logo" src="~/scope-india-logo-bird.png" alt="Logo"></a>
+            </div>
+
+
+            <div class="row" style="width: 24vw;height: 4vw;position: relative;top: -4vw;left: 77vw;text-align: center;">
+                <div class="col-md-6">
+                <button class="login-link" style="background-color: rgba(35,36,127,1); border: none;color: #f0dc09;">
+
+                    <img style="width: 35px;" src="~/log-removebg-preview.png"><br>
+                            Log In
+                        
+                    </button>
+                </div>
+                <div class="col-md-6">
+                <a style="text-decoration: none;" asp-area="" asp-controller="Registration" asp-action="Index">
+                <button id="Register-link" style="background-color: rgba(35,36,127,1);border: none;color: #f0dc09;">
+                        <img style="width: 35px;" src="~/regi-removebg-preview.png"><br>
+                            Register
+                        
+                    </button>
+                </a>
+                </div>
+
+
+                <div>
+                </div>
+
+            </div>
+
+        </div>
+    <div id="loginForm">
+        <button  id="x-but" onclick="closeDiv()">
+            X
+        </button>
+
+        <h2>Login</h2>
+        <form style="margin-top: 4vw;">
+
+            <input type="text" id="username" name="username" required placeholder="USER NAME"><br>
+
+
+            <input type="password" id="password" name="password" required placeholder="PASSWORD"><br>
+
+            <input type="submit" value="Login">
+        </form>
+        <a style="text-decoration: none;" href="/">Forgot password ?</a>
+    </div>
+
+    <script>
+        const loginButton = document.getElementsByClassName("login-link")[0];
+        const loginForm = document.getElementById("loginForm");
+
+        loginButton.addEventListener("click", function () {
+            loginForm.style.display = "block";
+        });
+
+                  
+    </script>
+
+    <div id="body-div">
+            <main role="main" >
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="border-top footer text-muted">
+        <div id="foot" style="background-color:rgba(35,36,127,1);
+
+height: 16vw;" class="row">
+
+            <div class="col-md-4">
+                <img style="width: 30vw;position: relative;
+    top: 1vw; left: 1vw;" src="~/snowpark-footer-logo.png">
+                <img src="~/iso_iaflogo.png" style="    width: 26vw;
+    position: relative;top: 2vw;left: 2vw;">
+            </div>
+
+            <div class="col-md-4">
+                <div class="row" style="position: relative;
+    top: 4vw;
+    width: 24vw;
+    left: 6vw;">
+                    <a class="col-md-6" style="text-decoration: none;color: #f0dc09;" asp-area="" asp-controller="Home" asp-action="About">About Us</a>
+                    <a class="col-md-6" style="text-decoration: none;color: #f0dc09;" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+
+                    <a class="col-md-6" style="text-decoration: none;color: #f0dc09;" asp-area="" asp-controller="Home" asp-action="PrivacyAndTerms">Privacy and Terms</a>
+                    <a class="col-md-6" style="text-decoration: none;color: #f0dc09;" asp-area="" asp-controller="Home" asp-action="Careers">Careers</a>
+                    <a class="col-md-6" style="text-decoration: none;color: #f0dc09;" href="https://instagram.com/scopeindia?igshid=MmU2YjMzNjRlOQ==">Instagram</a>
+                    <a class="col-md-6" style="text-decoration: none;color: #f0dc09;" href="https://www.linkedin.com/company/scope-india-software-and-networking-education/">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p style="font-size: 15px;text-align: center;color:white">
+                    <span style="color: #f0dc09;font-size: 20px;text-align: center;">1000+</span><br>
+                    STUDENTS ARE
+                    TRAINED EVERY YEAR
+
+
+                </p>
+                <p style="font-size: 15px;text-align: center;color:white">
+                    <span style="color: #f0dc09;font-size: 20px;text-align: center;">30+</span><br>
+                    COMPUTER COURSES
+                </p>
+                <p style="font-size: 15px;text-align: center;color:white">
+                    <span style="color: #f0dc09;font-size: 20px;text-align: center;"> 95%</span><br>
+                    STUDENTS ARE GETTING
+                    PLACED EVERY YEAR
+                </p>
+            </div>
+
+
+
+
+            </div>
+        </footer>
+        
+    @await RenderSectionAsync("Scripts", required: false)
+    
+</body>
+</html>

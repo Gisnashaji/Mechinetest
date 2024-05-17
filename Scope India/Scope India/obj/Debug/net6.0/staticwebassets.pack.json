@@ -1,0 +1,469 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Scope India.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Scope India.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\2-removebg-preview (1).png",
+      "PackagePath": "staticwebassets\\2-removebg-preview (1).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\3-removebg-preview.png",
+      "PackagePath": "staticwebassets\\3-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\4-removebg-preview.png",
+      "PackagePath": "staticwebassets\\4-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\5-removebg-preview.png",
+      "PackagePath": "staticwebassets\\5-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\5star.png",
+      "PackagePath": "staticwebassets\\5star.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\6-removebg-preview.png",
+      "PackagePath": "staticwebassets\\6-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\7-removebg-preview.png",
+      "PackagePath": "staticwebassets\\7-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\abhijith.jpg",
+      "PackagePath": "staticwebassets\\abhijith.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\abhijith.png",
+      "PackagePath": "staticwebassets\\abhijith.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\afia.jpg",
+      "PackagePath": "staticwebassets\\afia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\anand.jpg",
+      "PackagePath": "staticwebassets\\anand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\anjana-raj.jpg",
+      "PackagePath": "staticwebassets\\anjana-raj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\anto.png",
+      "PackagePath": "staticwebassets\\anto.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\arunlal.jpg",
+      "PackagePath": "staticwebassets\\arunlal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\bharathi.jpg",
+      "PackagePath": "staticwebassets\\bharathi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\carolin.jpg",
+      "PackagePath": "staticwebassets\\carolin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\customer_service_icon_800_wht.jpg",
+      "PackagePath": "staticwebassets\\customer_service_icon_800_wht.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\download-removebg-preview.png",
+      "PackagePath": "staticwebassets\\download-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\gokul.jpg",
+      "PackagePath": "staticwebassets\\gokul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\gr-removebg-preview.png",
+      "PackagePath": "staticwebassets\\gr-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\intern-removebg-preview.png",
+      "PackagePath": "staticwebassets\\intern-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\internship.png",
+      "PackagePath": "staticwebassets\\internship.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\iso_iaflogo.png",
+      "PackagePath": "staticwebassets\\iso_iaflogo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\jo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\jo-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\laal.png",
+      "PackagePath": "staticwebassets\\laal.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lavin.jpg",
+      "PackagePath": "staticwebassets\\lavin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\list-of-most-important-customer-service-skills-header-removebg-preview (1).png",
+      "PackagePath": "staticwebassets\\list-of-most-important-customer-service-skills-header-removebg-preview (1).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\log-removebg-preview.png",
+      "PackagePath": "staticwebassets\\log-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\newlogo.png",
+      "PackagePath": "staticwebassets\\newlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\nihan.png",
+      "PackagePath": "staticwebassets\\nihan.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\placem.webp",
+      "PackagePath": "staticwebassets\\placem.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\regi-removebg-preview.png",
+      "PackagePath": "staticwebassets\\regi-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\sanjana.png",
+      "PackagePath": "staticwebassets\\sanjana.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-aws-certification-course-(1).jpg",
+      "PackagePath": "staticwebassets\\scope-india-aws-certification-course-(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-azure-certification-course.jpg",
+      "PackagePath": "staticwebassets\\scope-india-azure-certification-course.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-dotnet-core-full-stack-course.jpg",
+      "PackagePath": "staticwebassets\\scope-india-dotnet-core-full-stack-course.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-flutter-fullstack-course.jpg",
+      "PackagePath": "staticwebassets\\scope-india-flutter-fullstack-course.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-full-stack-intermediate-offer-sep2022-2 (1).jpg",
+      "PackagePath": "staticwebassets\\scope-india-full-stack-intermediate-offer-sep2022-2 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-full-stack-offer-jul10-share2023.jpg",
+      "PackagePath": "staticwebassets\\scope-india-full-stack-offer-jul10-share2023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-lets-discuss-your-career.jpg",
+      "PackagePath": "staticwebassets\\scope-india-lets-discuss-your-career.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-logo-bird.png",
+      "PackagePath": "staticwebassets\\scope-india-logo-bird.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-mean-mern-stack-course.jpg",
+      "PackagePath": "staticwebassets\\scope-india-mean-mern-stack-course.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-php-full-stack-course (1).jpg",
+      "PackagePath": "staticwebassets\\scope-india-php-full-stack-course (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-python-full-stack-course (1) (1).jpg",
+      "PackagePath": "staticwebassets\\scope-india-python-full-stack-course (1) (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\scope-india-python-full-stack-course (1).jpg",
+      "PackagePath": "staticwebassets\\scope-india-python-full-stack-course (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\shebin.png",
+      "PackagePath": "staticwebassets\\shebin.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\snowpark-footer-logo.png",
+      "PackagePath": "staticwebassets\\snowpark-footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\snowpark-home-slider-logo-new.png",
+      "PackagePath": "staticwebassets\\snowpark-home-slider-logo-new.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\sreehari.png",
+      "PackagePath": "staticwebassets\\sreehari.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\sup1-removebg-preview.png",
+      "PackagePath": "staticwebassets\\sup1-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Scope India\\Scope India\\wwwroot\\training-removebg-preview.png",
+      "PackagePath": "staticwebassets\\training-removebg-preview.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Scope India.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Scope India.props",
+      "PackagePath": "build\\Scope India.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Scope India.props",
+      "PackagePath": "buildMultiTargeting\\Scope India.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Scope India.props",
+      "PackagePath": "buildTransitive\\Scope India.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

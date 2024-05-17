@@ -1,0 +1,52 @@
+﻿@model Mechinetest.Controllers.RegistrationViewModel
+
+@{
+    ViewBag.Title = "Registration Form";
+}
+
+<h2>Registration Form</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <div>
+        @Html.LabelFor(m => m.FirstName)
+        @Html.TextBoxFor(m => m.FirstName)
+        @Html.ValidationMessageFor(m => m.FirstName)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.LastName)
+        @Html.TextBoxFor(m => m.LastName)
+        @Html.ValidationMessageFor(m => m.LastName)
+    </div>
+
+    <!-- Other input fields for Age, DateOfBirth, Gender, Email, PhoneNumber, Username, Password -->
+
+    <h3>Qualification Details</h3>
+
+    <div id="qualifications">
+        @for (int i = 0; i < Model.Qualifications.Count; i++)
+        {
+            @Html.Partial("_QualificationPartial", Model.Qualifications[i])
+        }
+    </div>
+
+    <button type="button" id="addQualification">Add Qualification</button>
+
+    <input type="submit" value="Register" />
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#addQualification").click(function () {
+                $.get('@Url.Action("AddQualification", "Registration")', function (template) {
+                    $("#qualifications").append(template);
+                });
+            });
+        });
+    </script>
+}
+

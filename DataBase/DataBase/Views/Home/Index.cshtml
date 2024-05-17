@@ -1,0 +1,28 @@
+﻿
+<head>
+  
+</head>
+
+<table class="table" border="1">
+    <tr>
+       
+        <th >Name</th>
+        <th >Description</th>
+        <th >DOB</th>
+    </tr>
+@if(ViewBag.a!=null){
+        
+    @foreach(var i in ViewBag.a)
+    {
+            <tr>
+                <td >@i.Name</td>
+                <td >@i.Description</td>
+                <td >@i.DOB</td>
+
+            </tr>
+    }
+       
+}
+</table>
+
+

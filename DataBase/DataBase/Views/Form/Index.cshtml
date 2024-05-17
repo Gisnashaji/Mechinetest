@@ -1,0 +1,85 @@
+﻿@model DataBase.Models.Form
+<div class="Container mt-5">
+    <h2 class="mb-4">Registration Form</h2>
+    <form asp-action="register" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label class="form-label" asp-for="Name">Name:</label>
+            <input type="text" asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Age">Age:</label>
+            <input type="number" asp-for="Age" class="form-control" />
+            <span asp-validation-for="Age"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Country">Country:</label>
+            <select id="country" asp-for="Country" name="country" class="form-select" onchange="updateStates()" required>
+                <option value="" disabled selected>Select Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+            </select>
+            <span asp-validation-for="Country"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="State">State:</label>
+            <select id="state" asp-for="State" name="state" class="form-select" onchange="updateCities()" required>
+                <option value="" disabled selected>Select State</option>
+                
+            </select>
+            <span asp-validation-for="State"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="City">City:</label>
+            <select id="city" asp-for="City" name="city" class="form-select" required>
+                <option value="" disabled selected>Select City</option>
+       
+            </select>
+            <span asp-validation-for="City"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="PhoneNumber">Phone Number:</label>
+            <input type="tel" class="form-control" asp-for="PhoneNumber" required>
+            <span asp-validation-for="PhoneNumber"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Email">Email :</label>
+            <input type="Email" class="form-control" asp-for="Email" id="email" name="email" required>
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="Gender">Gender :</label>
+            <div>
+                <input type="radio" asp-for="Gender" id="male" name="gender" value="Male" class="form-check-input" required>
+                <label for="male" class="form-check-label">Male</label>
+            </div>
+            <div>
+                <input type="radio" asp-for="Gender" id="female" name="gender" value="Female" class="form-check-input" required>
+                <label for="female" class="form-check-label">Female</label>
+            </div>
+            <div>
+                <input type="radio" asp-for="Gender" id="others" name="gender" value="Others" class="form-check-input" required>
+                <label for="others" class="form-check-label">Others</label>
+            </div>
+            <span asp-validation-for="Gender"></span>
+        </div>
+        <label  class="form-label" asp-for="Hobbies">Hobbies</label><br/>
+        @{
+            string[] hobbies = { "Riding", "Dancing", "Swimming" };
+        }
+        @foreach(var hobby in hobbies)
+        {
+            <label>
+                <input type="checkbox" name="Hobbies" value="@hobby"/>
+                @hobby
+            </label>
+            <br/>
+        }
+        <input type="submit" class="btn btn-primary" value="Submit" />
+    </form>
+</div>
+
+<script src="~/js/DnamicCity.js"></script>
+@section Scripts{
+    @await Html.PartialAsync("/Views/Shared/_ValidationScriptsPartial.cshtml")
+}

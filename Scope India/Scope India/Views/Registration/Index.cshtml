@@ -1,0 +1,297 @@
+﻿@model Scope_India.Models.RegisterModel;
+@{
+
+    ViewData["Title"] = "Registration";
+
+}
+    
+
+
+
+
+<div class="container-md" style="margin-top: 9vw;">
+    <div class="card" style="margin-bottom:7vw;">
+
+    <div class="card-header bg-info text-black text-uppercase text-center ">
+
+        <h4>Student Information</h4>
+
+    </div>
+
+        <div class="card-body bg-dark text-info">
+
+            <form asp-action="Save" asp-controller="Registration" method="post" enctype="multipart/form-data">
+
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="form-group">
+
+                        <label asp-for="FirstName" class="label-control"></label>
+                            <input asp-for="FirstName" class="form-control bg-light text-black text-capitalize fw-bold" />
+
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="form-group">
+
+                        <label asp-for="LastName" class="label-control"></label>
+                            <input asp-for="LastName" class="form-control bg-light text-black text-capitalize fw-bold" />
+
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+
+                    </div>
+                </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+
+                            <label asp-for="DateofBirth" class="label-control"></label>
+
+                            <input asp-for="DateofBirth" class="form-control bg-light text-black  fw-bold" />
+
+                            <span asp-validation-for="DateofBirth" class="text-danger"></span>
+
+                        </div>
+
+                    </div>
+               
+                </div>
+                
+                
+                
+                <div class="row">
+
+                    <div class="col-md-4">
+
+                    <div class="form-group">
+
+                        <label asp-for="Gender" class="label-control"></label>
+                        <br />
+                            <input type="radio" asp-for="Gender" value="Male" id="GenderMale" class="form-check-input " />
+                                <label for="GenderMale" class="form-check-label fw-bold">Male</label>
+
+                                <input type="radio" asp-for="Gender" value="Female" id="GenderFemale" class="form-check-input"  />
+                                <label for="GenderFemale" class="form-check-label fw-bold">Female</label>
+                                <input type="radio" asp-for="Gender" value="Others" id="GenderOthers" class="form-check-input" />
+                                <label for="GenderOthers" class="form-check-label fw-bold">Others</label>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="form-group">
+
+                        <label asp-for="PhoneNumber" class="label-control"></label>
+                            <input asp-for="PhoneNumber" class="form-control bg-light text-black  fw-bold" />
+
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="form-group">
+
+                        <label asp-for="Email" class="label-control"></label>
+
+                            <input asp-for="Email" class="form-control bg-light text-black  fw-bold" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+
+                    </div>
+
+                </div>
+              </div>
+
+
+                
+              <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Country" class="label-control">Country</label>
+                            <select asp-for="Country" class="form-control bg-light text-black text-capitalize fw-bold" id="Country">
+                                <option value="">-- Select Country --</option>
+                                <option value="India">India</option>
+                                <option value="UAE">UAE</option>
+                            <option value="USA">USA</option>
+                           
+                            </select>
+                            <span asp-validation-for="Country" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="State" class="label-control">State</label>
+                            <select asp-for="State" class="form-control bg-light text-black text-capitalize fw-bold" id="State">
+                                <option value="">-- Select State --</option>
+                                
+                            </select>
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="City" class="label-control">City</label>
+                            <select asp-for="City" class="form-control bg-light text-black text-capitalize fw-bold" id="City">
+                                <option value="">-- Select City --</option>
+                                <!-- City options will be populated dynamically based on selected state -->
+                            </select>
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                    </div>
+                
+               </div>
+
+                <br />
+
+                <div class="row text-center">
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="label-control">Hobbies</label>
+                            <br>
+                            @foreach (var Hobbies in new List<string> { "Reading", "Sports", "Movies", "Arts" })
+                            {
+                                <input type="checkbox" name="selectedHobbies" value="@Hobbies" class="form-check-input" />
+                                <label class="form-check-label">@Hobbies</label>
+                            }
+                        </div>
+                    </div>
+                    </div>
+
+                    <br />
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Upload" class="label-control">Upload Avatar</label>
+                            <input asp-for="Upload" type="file" class="form-control bg-secondary text-info" />
+
+                            <span asp-validation-for="Upload" class="text-danger"></span>
+                        </div>
+                    </div>
+               
+
+                <div class="col-md-4">
+                    <div class="form-group">
+
+                        <label asp-for="Password" class="label-control"></label>
+
+                            <input asp-for="Password" type="password" class="form-control bg-light text-black  fw-bold" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="form-group">
+
+                        <label asp-for="ConfirmPassword" class="label-control"></label>
+                            <input asp-for="ConfirmPassword" type="password" class="form-control bg-light text-black  fw-bold" />
+
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+                <div class="d-flex justify-content-center mt-4">
+
+                <button  class="btn btn-danger text-white rounded-pill btn-lg fw-bold">Register Now</button>
+
+            </div>
+
+        </form>
+        </div>
+
+    </div>
+</div>
+   @section Scripts {
+    <script>
+        var locationData = {
+            "India": {
+                "Kerala": ["Kochi", "Trivandrum", "Calicut"],
+                "Tamil Nadu": ["Chennai", "Coimbatore"],
+                "Karnataka": ["Bangalore", "Mysore"],
+                "Maharashtra": ["Mumbai", "Pune"]
+            },
+            "UAE": {
+                "Dubai": ["Dubai City", "Jumeirah"],
+                "Abu Dhabi": ["Al Ain"]
+            },
+            "USA": {
+                "New York": ["Buffalo"],
+                "California": ["Los Angeles", "San Francisco"]
+            }
+            };
+
+        function populateStates() {
+            var selectedCountry = document.getElementById("Country").value;
+            var stateDropdown = document.getElementById("State");
+            stateDropdown.innerHTML = "<option value=''>-- Select State --</option>";
+
+            if (selectedCountry && locationData[selectedCountry]) {
+                for (var state in locationData[selectedCountry]) {
+                    var option = document.createElement("option");
+                    option.value = state;
+                    option.text = state;
+                    stateDropdown.appendChild(option);
+                }
+            }
+
+            // Clear and populate the "City" dropdown.
+            var cityDropdown = document.getElementById("City");
+            cityDropdown.innerHTML = "<option value=''>-- Select City --</option>";
+        }
+
+        function populateCities() {
+            var selectedCountry = document.getElementById("Country").value;
+            var selectedState = document.getElementById("State").value;
+            var cityDropdown = document.getElementById("City");
+
+            cityDropdown.innerHTML = "<option value=''>-- Select City --</option>";
+
+            if (selectedCountry && selectedState && locationData[selectedCountry] && locationData[selectedCountry][selectedState]) {
+                locationData[selectedCountry][selectedState].forEach(function (city) {
+                    var option = document.createElement("option");
+                    option.value = city;
+                    option.text = city;
+                    cityDropdown.appendChild(option);
+                });
+            }
+        }
+
+        // Attach event listeners to the "Country" and "State" dropdowns.
+        var countryDropdown = document.getElementById("Country");
+        var stateDropdown = document.getElementById("State");
+
+        countryDropdown.addEventListener("change", populateStates);
+        stateDropdown.addEventListener("change", populateCities);
+
+        // Initialize state and city dropdowns when the page loads.
+        populateStates();
+        populateCities();
+    </script>
+
+
+       
+    @await Html.PartialAsync("/Views/Shared/_ValidationScriptsPartial.cshtml")
+}
+

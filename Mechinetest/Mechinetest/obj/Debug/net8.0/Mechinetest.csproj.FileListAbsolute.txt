@@ -1,0 +1,8 @@
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.AssemblyInfo.cs
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.RazorAssemblyInfo.cache
+C:\Users\HP\source\repos\MechineTest\Mechinetest\obj\Debug\net8.0\Mechinetest.RazorAssemblyInfo.cs

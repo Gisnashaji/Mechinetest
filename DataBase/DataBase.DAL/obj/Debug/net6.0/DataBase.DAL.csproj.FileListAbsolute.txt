@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\bin\Debug\net6.0\DataBase.DAL.deps.json
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\bin\Debug\net6.0\DataBase.DAL.runtimeconfig.json
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\bin\Debug\net6.0\DataBase.DAL.dll
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\bin\Debug\net6.0\DataBase.DAL.pdb
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.AssemblyInfo.cs
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.dll
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\refint\DataBase.DAL.dll
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.pdb
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\DataBase.DAL.genruntimeconfig.cache
+C:\Users\HP\source\repos\DataBase\DataBase.DAL\obj\Debug\net6.0\ref\DataBase.DAL.dll

@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\GISNA\Entity.DAL\bin\Debug\net6.0\GISNA.DAL.deps.json
+C:\Users\HP\source\repos\GISNA\Entity.DAL\bin\Debug\net6.0\GISNA.DAL.runtimeconfig.json
+C:\Users\HP\source\repos\GISNA\Entity.DAL\bin\Debug\net6.0\GISNA.DAL.dll
+C:\Users\HP\source\repos\GISNA\Entity.DAL\bin\Debug\net6.0\GISNA.DAL.pdb
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.AssemblyInfo.cs
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.dll
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\refint\GISNA.DAL.dll
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.pdb
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\GISNA.DAL.genruntimeconfig.cache
+C:\Users\HP\source\repos\GISNA\Entity.DAL\obj\Debug\net6.0\ref\GISNA.DAL.dll
